@@ -1,0 +1,26 @@
+made github account
+
+install git
+
+install vs code
+
+make new project
+
+modify files
+
+push the code
+
+
+
+
+commands
+
+git clone "paste the url"
+
+code .
+
+git add .
+
+git commit -m"mesage"
+
+git push
