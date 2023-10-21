@@ -1,70 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <form>
+      <fieldset>
+        <legend><h1>Form</h1></legend>
 
-        <p>text</p>
-        <input type="text" minlength="4" maxlength="10" required>
-        <p>number</p>
-        <input type="number" min="15" max="35" required step="0.5">
+        <label for="name">Name</label>
+        <input
+          id="name"
+          placeholder="enter your name"
+          type="text"
+          minlength="4"
+          maxlength="10"
+          required
+        />
+        <br />
+        <br />
+        <br />
+        <br />
+        <label for="age">age</label>
+        <input
+          id="age"
+          placeholder="enter your age"
+          type="number"
+          min="15"
+          max="35"
+          required
+          step="0.5"
+        />
         <p>password</p>
-        <input type="password" required>
+        <input placeholder="password" type="password" required />
         <p>email</p>
-        <input type="email" required>
+        <input placeholder="email" type="email" required />
 
         <!-- radio -->
 
         <p>radio</p>
-        <input type="radio" name="gender" value="male" checked />
-        <b>male</b>
-        <input type="radio" name="gender" value="female" />
-        <b>female</b>
+        <input id="male" type="radio" name="gender" value="male" checked />
+        <label for="male">Male</label>
+        <input id="female" type="radio" name="gender" value="female" />
+        <label for="female">Female</label>
         <input type="radio" name="gender" value="other" />
         <b>other</b>
 
-
         <!-- checkbox -->
 
-
         <p>checkbox</p>
-        <input type="checkbox">
+        <input type="checkbox" />
         <b>bike</b>
-        <input type="checkbox">
+        <input type="checkbox" />
         <b>cycle</b>
-        <input type="checkbox">
+        <input type="checkbox" />
         <b>car</b>
 
         <p>file</p>
         <input type="file" accept="image/*" />
 
+        <p>textarea</p>
+        <textarea placeholder="description" rows="10" cols="100"></textarea>
+
         <p>select</p>
 
         <select multiple>
-
-            <option>Facebook</option>
-            <option>Whatsapp</option>
-            <option selected>Youtube</option>
-            <option>Instagram</option>
-            <option>Twitter</option>
-
+          <option>Facebook</option>
+          <option>Whatsapp</option>
+          <option selected>Youtube</option>
+          <option>Instagram</option>
+          <option>Twitter</option>
         </select>
 
         <select>
-
-            <option>Facebook</option>
-            <option>Whatsapp</option>
-            <option selected>Youtube</option>
-            <option>Instagram</option>
-            <option>Twitter</option>
-
+          <option>Facebook</option>
+          <option>Whatsapp</option>
+          <option selected>Youtube</option>
+          <option>Instagram</option>
+          <option>Twitter</option>
         </select>
 
         <br />
@@ -91,11 +107,17 @@
         <!-- select multiple -->
         <!-- button -->
 
-
-        <button type="submit">Submit</button>
-
+        <button type="submit">Confirm</button>
+        <!-- <button type="button">Submit</button> -->
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </fieldset>
     </form>
-
-</body>
-
+  </body>
 </html>
