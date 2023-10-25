@@ -1,0 +1,32 @@
+* {
+  color: brown;
+  font-family: "Lucida Sans", sans-serif;
+}
+
+h1 {
+  color: rgb(23, 101, 66);
+}
+
+.list {
+  color: rgb(0, 60, 113);
+}
+
+#other {
+  color: rgb(150, 150, 0);
+}
+
+ol > li {
+  color: orange;
+}
+
+ol a {
+  color: rgb(2, 117, 121);
+}
+
+.my-class {
+  color: rgb(39, 155, 99) !important;
+}
+
+.my-class {
+  color: red!important;
+}
